@@ -1,8 +1,9 @@
+import JsConcepts from "./javascript/JsConcepts";
 
 function App() {
   return (
     <div>
-          Learn React
+          <JsConcepts/>
     </div>
   );
 }
