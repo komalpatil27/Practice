@@ -1,9 +1,11 @@
 import React from "react";
-import PollyFills from "./Pollyfills";
+import PollyFills from "./Pollyfills/PollyFills";
+import PracticeCode from "./Practice/PracticeCode";
 
 function JsConcepts(){
     return (<>
-        <PollyFills/>
+        {/* <PollyFills/> */}
+        <PracticeCode/>
     </>)
 }
 export default JsConcepts

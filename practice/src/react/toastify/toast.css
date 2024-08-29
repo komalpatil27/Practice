@@ -1,0 +1,49 @@
+.toastButton {
+    background-color: black;
+    border: 1rem;
+    border-color: blueviolet;
+    height: 30px;
+    width: 300px;
+    font-size: small;
+    color: azure;
+    cursor: pointer;
+}
+
+.toastButton:hover {
+    background-color: blueviolet;
+    animation-fill-mode: forwards;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.toast {
+    z-index: 1;
+    position: fixed;
+    padding: 4px;
+    top: 10px;
+    right: 10px;
+    width: 240px;
+    box-sizing: border-box;
+    color: #62114d;
+    border: solid;
+    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.3);
+    animation: slideInLeft 0.3s ease-in-out forwards,
+        fadeOut 0.8s ease-in-out forwards 3s;
+}
+
+.closebutton {
+    background-color: rgb(247, 134, 134);
+    border: 1rem;
+    border-color: blueviolet;
+    height: 20px;
+    width: 40px;
+    font-size: small;
+    color: azure;
+    cursor: pointer;
+}
