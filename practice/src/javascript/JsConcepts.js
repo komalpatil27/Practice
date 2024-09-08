@@ -4,7 +4,7 @@ import PracticeCode from "./Practice/PracticeCode";
 
 function JsConcepts(){
     return (<>
-        {/* <PollyFills/> */}
+        <PollyFills/>
         <PracticeCode/>
     </>)
 }

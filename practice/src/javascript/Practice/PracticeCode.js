@@ -33,6 +33,22 @@ function PracticeCode() {
   }
   
   console.log(reverseString('hello'), 'ssssssssss'); // Output: 'olleh'
+
+//   Example 1:
+
+// Input: s = "anagram", t = "nagaram"
+// Output: true
+// Example 2:
+
+// Input: s = "rat", t = "car"
+// Output: false
+  let isAnagram = function(s, t) {
+    function sorting(stringVal){
+      return stringVal.split("").sort()
+    }
+    return JSON.stringify(sorting(s)) === JSON.stringify(sorting(t))
+};
+console.log(isAnagram("anagram" , "nagarama") , 'check')
 }
 
 export default PracticeCode
